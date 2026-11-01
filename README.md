@@ -5,6 +5,8 @@ SDEV | 245
 > M01: Assignment
 >  ***Due: Mon Nov 2, 2026 10:59pm***
 
+[Link to M01 Assignment App Page](https://kschenk10-ivy-tech.github.io/SDEV-245/)
+
 # Module 1: Assignment - RBAC and Authentication Mini-App
 
 ## Learning Materials
