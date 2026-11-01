@@ -2,13 +2,14 @@
 
 **M01: Assignment**
 <br/>
-**Due:** _Monday, Nov 2nd, 2026, by: 10:59pm_
+**Due:** Monday, Nov 2nd, 2026, by: 10:59pm
 
 # Module 1: Assignment - RBAC and Authentication Mini-App
 
+<center>
 [Link to M01 Assignment App Webpage](https://kschenk10-ivy-tech.github.io/SDEV-245/)
-
-<img src="https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/Adobe%20Express%20-%20ScreenRecording_11-01-2026.gif?raw=true" width="auto" alt="Screen Recording">
+<img src="https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/Adobe%20Express%20-%20ScreenRecording_11-01-2026.gif?raw=true" width="300" alt="Screen Recording">
+</center>
 
 ## How to use
 
