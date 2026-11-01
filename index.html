@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!---
-<link rel="stylesheet" href="">
---->
-  </head>
-  <body>
-    <h1>Role-Based Access Control and Authentication Login Simulation</h1>
 
-    <button onclick="login('admin')">Login as Admin</button>
-    <button onclick="login('user')">Login as User</button>
-    <hr />
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="./style.css">
+</head>
 
-    <button onclick="adminAction()">Admin Action</button>
-    <button onclick="userAction()">User Action</button>
+<body>
+<p>SDEV0245 | M01 Assignment | RBAC and Authentication Mini-App
+</p>
+	<button onclick="login('admin')">Login as Admin</button>
+	<button onclick="login('user')">Login as User</button>
+	<hr />
 
-    <div id="output">Not logged in.</div>
+	<button onclick="adminAction()">Admin Action</button>
+	<button onclick="userAction()">User Action</button>
 
-    <script>
-      const users = {
-        admin: { role: "admin" },
-        user: { role: "user" },
-      };
+	<div id="output">Not logged in.</div>
 
-      let currentUser = null;
+	<script>
+		const users = {
+			admin: {role: "admin"},
+			user: {role: "user"},
+		};
 
-      function login(username) {
-        currentUser = users[username];
+		let currentUser = null;
 
-        document.getElementById(
-          "output"
-        ).textContent = `Logged in as ${username} (${currentUser.role})`;
-      }
+		function login(username) {
+			currentUser = users[username];
 
-      function adminAction() {
-        if (!currentUser) {
-          show("Access denied: Please log in.");
-          return;
-        }
+			document.getElementById(
+				"output"
+			).textContent = `Logged in as ${username} (${currentUser.role})`;
+		}
 
-        if (currentUser.role !== "admin") {
-          show("Access denied: Admins only.");
-          return;
-        }
+		function adminAction() {
+			if (!currentUser) {
+				show("Access denied: Please log in.");
+				return;
+			}
 
-        show("Admin action executed.");
-      }
+			if (currentUser.role !== "admin") {
+				show("Access denied: Admins only.");
+				return;
+			}
 
-      function userAction() {
-        if (!currentUser) {
-          show("Access denied: Please log in.");
-          return;
-        }
+			show("Admin action executed.");
+		}
 
-        if (currentUser.role !== "user") {
-          show("Access denied: Users only.");
-          return;
-        }
+		function userAction() {
+			if (!currentUser) {
+				show("Access denied: Please log in.");
+				return;
+			}
 
-        show("User action executed.");
-      }
+			if (currentUser.role !== "user") {
+				show("Access denied: Users only.");
+				return;
+			}
 
-      function show(message) {
-        document.getElementById("output").textContent = message;
-      }
-    </script>
-    <!-- <script src="" async defer></script> -->
-  </body>
+			show("User action executed.");
+		}
+
+		function show(message) {
+			document.getElementById("output").textContent = message;
+		}
+	</script>
+	<!-- <script src="" async defer></script> -->
+</body>
+
 </html>
