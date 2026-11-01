@@ -87,5 +87,30 @@
     "editor.stickyScroll.enabled": false,
     "editor.inlineSuggest.syntaxHighlightingEnabled": false,
     "ipynb.pasteImagesAsAttachments.enabled": false,
-    "editor.inlineSuggest.enabled": false
+	"editor.inlineSuggest.enabled": false,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.guides.highlightActiveIndentation": false,
+	"editor.guides.indentation": false,
+	"editor.wrappingIndent": "none",
+	"scm.diffDecorationsGutterPattern": {
+		"modified": false
+	},
+	"scm.diffDecorationsGutterAction": "none",
+	"scm.diffDecorations": "none",
+	"scm.countBadge": "off",
+	"editor.glyphMargin": false,
+	"editor.colorDecorators": false,
+	"git.suggestSmartCommit": false,
+	"tailwindCSS.codeActions": false,
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.dragAndDrop": false,
+	"workbench.editor.languageDetection": false,
+	"git.optimisticUpdate": false,
+	"markdown.editor.updateLinksOnPaste.enabled": false,
+	"editor.suggestOnTriggerCharacters": true,
+	"editor.find.loop": false,
+	"editor.unusualLineTerminators": "off",
+	"scm.autoReveal": false,
+	"markdown.extension.completion.respectVscodeSearchExclude": true
 }

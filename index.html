@@ -1,31 +1,75 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-<body>
-    <h2>Role-Based Access Control and Authentication Simulation</h2>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!---
+<link rel="stylesheet" href="">
+--->
+  </head>
+  <body>
+    <h1>Role-Based Access Control and Authentication Login Simulation</h1>
 
     <button onclick="login('admin')">Login as Admin</button>
     <button onclick="login('user')">Login as User</button>
-    <hr>
+    <hr />
 
     <button onclick="adminAction()">Admin Action</button>
     <button onclick="userAction()">User Action</button>
 
     <div id="output">Not logged in.</div>
 
-     
-        <script src="" async defer></script>
+    <script>
+      const users = {
+        admin: { role: "admin" },
+        user: { role: "user" },
+      };
 
-    </body>
+      let currentUser = null;
+
+      function login(username) {
+        currentUser = users[username];
+
+        document.getElementById(
+          "output"
+        ).textContent = `Logged in as ${username} (${currentUser.role})`;
+      }
+
+      function adminAction() {
+        if (!currentUser) {
+          show("Access denied: Please log in.");
+          return;
+        }
+
+        if (currentUser.role !== "admin") {
+          show("Access denied: Admins only.");
+          return;
+        }
+
+        show("Admin action executed.");
+      }
+
+      function userAction() {
+        if (!currentUser) {
+          show("Access denied: Please log in.");
+          return;
+        }
+
+        if (currentUser.role !== "user") {
+          show("Access denied: Users only.");
+          return;
+        }
+
+        show("User action executed.");
+      }
+
+      function show(message) {
+        document.getElementById("output").textContent = message;
+      }
+    </script>
+    <!-- <script src="" async defer></script> -->
+  </body>
 </html>
