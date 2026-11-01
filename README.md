@@ -3,15 +3,23 @@
 SDEV | 245
 
 > M01: Assignment
->  ***Due: Mon Nov 2, 2026 10:59pm***
-
-[Link to M01 Assignment App Page](https://kschenk10-ivy-tech.github.io/SDEV-245/)
+> **_Due: Mon Nov 2, 2026 10:59pm_**
 
 # Module 1: Assignment - RBAC and Authentication Mini-App
 
-## Learning Materials
+[Link to M01 Assignment App Webpage](https://kschenk10-ivy-tech.github.io/SDEV-245/)
 
-### Read:
+## How to use
+
+1. Click "Login as Admin" ➡ Try both action buttons
+2. Click "Login as User" ➡ Try both action buttons
+3. Try actions without logging in first
+
+---
+
+### Learning Materials
+
+#### Read:
 
 - [x] Webpage: [Geeks for Geeks: What is CIA Triad?](https://www.geeksforgeeks.org/computer-networks/the-cia-triad-in-cryptography/)
 
@@ -30,6 +38,3 @@ SDEV | 245
 ### Watch
 
 - [x] Youtube: [What is the CIA Triad](https://youtu.be/kPPFNrlN3zo?feature=shared) [length: 4:06]
-
-
-
