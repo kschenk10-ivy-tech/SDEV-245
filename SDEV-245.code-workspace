@@ -90,7 +90,7 @@
 		"python.analysis.enablePytestSupport": false,
 		"python.analysis.autoSearchPaths": false,
 		"python.analysis.autoIndent": false,
-		"workbench.editor.enablePreview": true,
+		"workbench.editor.enablePreview": false,
 		"editor.bracketPairColorization.enabled": false,
 		"editor.dropIntoEditor.enabled": false,
 		"editor.hover.enabled": false,

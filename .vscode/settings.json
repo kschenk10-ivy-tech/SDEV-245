@@ -216,5 +216,6 @@
 			"bierner.markdown-emoji",
 			"esbenp.prettier-vscode"
 		]
-	}
+	},
+	"workbench.editor.restoreViewState": false
 }
