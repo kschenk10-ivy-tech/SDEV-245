@@ -1,22 +1,49 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title></title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="./style.css">
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-		
-		<script src="" async defer></script>
-	</body>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<h1>Module 2: Assignment | Encrypt/Decrypt Demo</h1>
+	<p>Enter a short message. Click <strong>Encrypt</strong> to scramble it, then <strong>Decrypt</strong> to get it
+		back.</p>
+
+	<section>
+		<h2>1. Symmetric | AES-GCM</h2>
+		<p>The <strong>same secret key</strong> encrypts and decrypts.</p>
+		<label for="symmetricMessage">Message</label>
+		<input id="symmetricMessage" value="Hello, world!"/>
+		<button id="symmetricEncrypt">Encrypt</button>
+		<button id="symmetricDecrypt">Decrypt</button>
+		<label>Encrypted (Base64)</label>
+		<pre id="symmetricCipher">—</pre>
+		<label>Decrypted</label>
+		<pre id="symmetricPlain">—</pre>
+	</section>
+
+	<section>
+		<h2>2. Asymmetric | RSA-OAEP</h2>
+		<p>A <strong>public key</strong> encrypts; its matching <strong>private key</strong> decrypts.</p>
+		<label for="asymmetricMessage">Message</label>
+		<input id="asymmetricMessage" value="Hello, world!" />
+		<button id="asymmetricEncrypt">Encrypt</button>
+		<button id="asymmetricDecrypt">Decrypt</button>
+		<label>Encrypted (Base64)</label>
+		<pre id="asymmetricCipher">—</pre>
+		<label>Decrypted</label>
+		<pre id="asymmetricPlain">—</pre>
+	</section>
+
+	<p class="note">This is just a demo for class. Keys are lost on refresh.</p>
+
+	<script src="./script.js" async defer></script>
+</body>
+
 </html>

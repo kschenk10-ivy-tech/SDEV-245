@@ -18,6 +18,15 @@
 
 ---
 
+The CIA Triad
+
+• Confidentiality: Ensures sensitive data is hidden from or inaccessible to unauthorized users 
+• Integrity: Guarantees that data remains accurate, complete, and free from unauthorized alterations or corruption 
+• Availability: Ensures that systems, networks, and data are up and running reliably when authorized users need them
+
+---
+
+
 ### Learning Materials
 
 #### Read:

@@ -1,4 +1,11 @@
-# Module 2: Learning Materials
+# Module 1: Assignment - RBAC and Authentication Mini-App
+***Due: Mon Nov 2, 2026 10:59pm***
+
+
+
+---
+
+## Module 2: Learning Materials
 **Required Content**
 
 Read:
@@ -22,7 +29,6 @@ Watch:
 ---
 
 
-
 **Extra Content**
 
  - [x] Webpage:  [Kerberos](https://en.wikipedia.org/wiki/Kerberos_(protocol) "Link")
@@ -39,10 +45,14 @@ Watch:
 
 ----
 
-Research for M02 Assignment
+Research, M02 Assignment
+
+Computer Science and Engineering. August 16, 2024. *Optimal asymmetric encryption padding OAEP || Lesson 62 || Cryptography || Learning Monkey ||*. YouTube. https://www.youtube.com/watch?v=YvmLEMb9dKs
+
+Gould, J. September 25, 2019. *Use the Web Crypto API to generate a public / private key pair for end to end, asymmetric cryptography on the web*. DEV Community. https://dev.to/jrgould/use-the-web-crypto-api-to-generate-a-public-private-key-pair-for-end-to-end-asymmetric-cryptography-on-the-web-2mpe
 
 Mozilla. (n.d.). *Web Crypto API*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API
 
-Nießen, T. May 1, 2020. *Securing JavaScript applications with the Web Cryptography API*. IBM Developer. https://developer.ibm.com/articles/secure-javascript-applications-with-web-crypto-api/
+NHI Mgmt Group. October 31, 2026. *AES-GCM*. Non-Human Identity & Agentic AI Security. https://nhimg.org/glossary/aes-gcm/
 
-Gould, J. September 25, 2019. *Use the Web Crypto API to generate a public / private key pair for end to end, asymmetric cryptography on the web*. DEV Community. https://dev.to/jrgould/use-the-web-crypto-api-to-generate-a-public-private-key-pair-for-end-to-end-asymmetric-cryptography-on-the-web-2mpe
+Nießen, T. May 1, 2020. *Securing JavaScript applications with the Web Cryptography API*. IBM Developer. https://developer.ibm.com/articles/secure-javascript-applications-with-web-crypto-api/
