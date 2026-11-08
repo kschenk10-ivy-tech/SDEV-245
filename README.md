@@ -1,7 +1,44 @@
-# Module 1: Assignment - RBAC and Authentication Mini-App
-***Due: Mon Nov 2, 2026 10:59pm***
+# Module 2: Assignment - Encrypt/Decrypt Demo
+***Due: Mon Nov 9, 2026 10:59pm***
+
+---
+
+![enter image description here](./)
+
+[Link](./)
 
 
+*AES-GCM and RSA-OAEP encryption using [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).*
+
+## Symmetric Encryption (AES-GCM, 256-bit)
+
+Encryption and decryption are paired within the session and triggered by the **Encrypt** / **Decrypt** buttons.
+
+- **Encrypt** (`#symmetricEncrypt`):
+  1. Generates a fresh 256-bit AES-GCM key (`crypto.subtle.generateKey`).
+  2. Creates a random 12-byte IV (`crypto.getRandomValues`).
+  3. Encrypts the text in `#symmetricMessage`.
+  4. Displays the ciphertext as Base64 in `#symmetricCipher` and clears the plaintext output.
+
+- **Decrypt** (`#symmetricDecrypt`):
+  1. Guards against clicking before encrypting.
+  2. Decrypts the stored ciphertext using the same key + IV.
+  3. Displays the recovered plaintext in `#symmetricPlain`.
+
+
+## Asymmetric Encryption (RSA-OAEP, 2048-bit, SHA-256)
+
+Key pair and ciphertext are stored in `rsaKeys` and `rsaCipher`
+
+- **Encrypt** (`#asymmetricEncrypt`):
+  1. Generates a 2048-bit RSA-OAEP key pair (public exponent `65537`).
+  2. Encrypts the text in `#asymmetricMessage` with the **public** key.
+  3. Displays the ciphertext as Base64 in `#asymmetricCipher` and clears the plaintext output.
+
+- **Decrypt** (`#asymmetricDecrypt`):
+  1. Guards against clicking before encrypting.
+  2. Decrypts the stored ciphertext with the **private** key.
+  3. Displays the recovered plaintext in `#asymmetricPlain`.
 
 ---
 

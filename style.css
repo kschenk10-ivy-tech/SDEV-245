@@ -6,3 +6,62 @@
     	color: #17212b;
     	background: #f7f9fc;
     }
+
+    h1 {
+    	margin-bottom: 4px;
+    }
+
+    p {
+    	color: #475569;
+    }
+
+    section {
+    	background: white;
+    	padding: 22px;
+    	margin: 20px 0;
+    	border: 1px solid #e2e8f0;
+    	border-radius: 12px;
+    }
+
+    label {
+    	display: block;
+    	font-weight: 600;
+    	margin-bottom: 6px;
+    }
+
+    input {
+    	box-sizing: border-box;
+    	width: 100%;
+    	font: inherit;
+    	padding: 10px 12px;
+    	border: 1px solid #b6c3d1;
+    	border-radius: 7px;
+    }
+
+    button {
+    	cursor: pointer;
+    	font: inherit;
+    	padding: 9px 14px;
+    	margin: 12px 8px 12px 0;
+    	border: 0;
+    	border-radius: 7px;
+    	color: white;
+    	background: #185abd;
+    }
+
+    button:hover {
+    	background: #10438f;
+    }
+
+    pre {
+    	overflow-wrap: anywhere;
+    	white-space: pre-wrap;
+    	background: #f1f5f9;
+    	padding: 12px;
+    	border-radius: 7px;
+    	min-height: 38px;
+    }
+
+    .note {
+    	font-size: 14px;
+    }
