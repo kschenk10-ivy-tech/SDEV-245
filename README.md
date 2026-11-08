@@ -3,7 +3,8 @@
 
 ---
 
-![enter image description here](./Adobe Express - ScreenRecording_11-08-2026 02-30-07_1.gif)
+![enter image description here](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/Adobe%20Express%20-%20ScreenRecording_11-08-2026%2002-30-07_1.gif?raw=true)
+
 
 [Link](./index.html)
 
