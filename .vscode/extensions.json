@@ -3,6 +3,9 @@
         "daltonmenezes.aura-theme",
         "pkief.material-icon-theme",
         "bierner.markdown-emoji",
-        "esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"xabikos.javascriptsnippets",
+		"ritwickdey.liveserver",
+		"christian-kohler.npm-intellisense"
     ]
 }
