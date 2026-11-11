@@ -10,6 +10,7 @@
 
 *Required Content*
 
+
 ### Read
 
 - [ ] Webpage: [True Randomness Can’t be Left to Chance: Why entropy is important for information security](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=915121)
@@ -36,3 +37,14 @@
 - [ ] Youtube: [How secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=tFWn0-ZCT6Mf7S0w) [length: 5:05]
 
 ---
+
+
+M03 Assignment Guides:
+
+- [ ] Youtube: [Python Beginner Project: Build a Caesar Cipher Encryption App](https://youtu.be/x71kJyNvB5o?si=-Ay_qNOlv5f-pO9n) [length 25:09]
+
+- [ ] Webpage: [How to use OpenSSL: Hashes, digital signatures, and more](https://opensource.com/article/19/6/cryptography-basics-openssl-part-2)
+
+---
+
+M03 Research
