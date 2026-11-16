@@ -7,8 +7,7 @@
 
 [enter link description here](./)
 
-
-## Part One: [SHA-256 Hashing](./)
+## Part One: [SHA-256 Hashing](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/03c956172ae56253dfed44356064afaabb0eec86/Jupyter%20Notebook/Hash.ipynb)
 *Write an app that generates SHA-256 hashes for input strings or files*
 
 <details>
@@ -22,13 +21,11 @@ How It Works
 - `hashlib.sha256()` calculates the hash.
 - `.hexdigest()` produces an easy-to-read hexadecimal string.
 
-
 ### Hash a File
 Files are already sequences of bytes. Reading in chunks means even large files can be processed without loading them entirely into memory.
 <br>
 - `open(path, "rb")` opens the file in read-binary mode.
 - `file.read()` gets its bytes.
-
 
 ## A Simple, Interactive App
 #### How to Use:
@@ -37,8 +34,7 @@ Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow
 
 ---
 
-
-## Part Two: [Encoding and Decoding Using the Caesar Cipher](./)
+## Part Two: [Encoding and Decoding Using the Caesar Cipher](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/03c956172ae56253dfed44356064afaabb0eec86/Jupyter%20Notebook/CaesarCipher.ipynb)
 
 *Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text*
 
