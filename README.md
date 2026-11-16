@@ -49,5 +49,6 @@ Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow
 - **Non-Letters**: Anything that fails `char.isalpha()` (spaces, numbers, exclamation marks) passes straight through untouched.
 </details>
 
-![Image of a  Jupyter Notebook, encoding and decoding the Caesar Cipher](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/CCcapture.PNG?raw=true)(https://github.com/kschenk10-ivy-tech/SDEV-245/blob/0c94822f83d852688bfb6b6611d0fb6eaa672045/Jupyter%20Notebook/CaesarCipher.ipynb "Part Two: Encoding and Decoding Using the Caesar Cipher")
 
+[![Image of code inside of a Jupyter Notebook](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/CCcapture.PNG?raw=true
+)](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/03c956172ae56253dfed44356064afaabb0eec86/Jupyter%20Notebook/CaesarCipher.ipynb "# Encoding and decoding using the Caesar Cipher")
