@@ -27,7 +27,7 @@ Files are already sequences of bytes. Reading in chunks means even large files c
 - `open(path, "rb")` opens the file in read-binary mode.
 - `file.read()` gets its bytes.
 
-## A Simple, Interactive App
+### A Simple, Interactive App
 #### How to Use:
 Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow the prompt. *For files: supply a path accessible to the notebook’s Python process*
 </details>
@@ -41,7 +41,7 @@ Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow
 <details>
   <summary>Click to expand</summary>
 
-### How It Works
+  ## How It Works
 *This Python script shifts each letter forward or backward through the alphabet using ASCII number conversions and modular arithmetic, while leaving punctuation and spaces untouched.*
 
 - **`ord()` and `chr()`**: Converts letters into their ASCII numbers so you can do math on them, then converts them back into characters.
