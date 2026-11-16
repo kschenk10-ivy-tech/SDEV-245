@@ -1,3 +1,4 @@
+
 # Module 3: Assignment | Secure Hashing and Encryption
 
 ***Due by 10:59pm on: Monday, November 16th, 2026***
@@ -6,66 +7,52 @@
 
 [enter link description here](./)
 
-Instructions:
 
-- [x] Write an app that generates SHA-256 hashes for input strings or files
+## Part One: [SHA-256 Hashing](./)
+*Write an app that generates SHA-256 hashes for input strings or files*
 
-- [ ] Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text
+<details>
+  <summary>Click to expand</summary>
 
-- [x] Use OpenSSL or a tool to simulate a digital signature (sign/verify).
+> This Jupyter Notebook generates SHA-256 hashes for text or files
 
-- [ ] Include a short README explaining your code's functionality
-
-
-
-## Module 3: Learning Materials
-
-*Required Content*
+### Hash a String
+How It Works
+- `.encode("utf-8")` converts the string into bytes because SHA-256 hashes bytes, not Python strings.
+- `hashlib.sha256()` calculates the hash.
+- `.hexdigest()` produces an easy-to-read hexadecimal string.
 
 
-### Read
+### Hash a File
+Files are already sequences of bytes. Reading in chunks means even large files can be processed without loading them entirely into memory.
+<br>
+- `open(path, "rb")` opens the file in read-binary mode.
+- `file.read()` gets its bytes.
 
-- [x] Webpage: [True Randomness Can’t be Left to Chance: Why entropy is important for information security](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=915121)
 
-- [x] Webpage: [Entropy (computing)](https://en.wikipedia.org/wiki/Entropy_(computing))
-
-- [x] Webpage: [random numbers](https://www.techtarget.com/whatis/definition/random-numbers)
-
-- [x] Webpage: [Digital signatures: What they are & how they work](https://www.sectigo.com/resource-library/how-digital-signatures-work)
-
-- [x] Webpage: [Understanding Digital Signatures](https://www.cisa.gov/news-events/news/understanding-digital-signatures)
-
-- [x] Webpage: [What is SHA- 256?](https://www.encryptionconsulting.com/education-center/sha-256/)
-
-- [x] Webpage: [What is the SHA-256 algorithm, and how does it work?](https://nordvpn.com/blog/sha-256/)
-
-- [x] Webpage: [Common encryption types explained: A guide to protocols and algorithms](https://www.comparitech.com/blog/information-security/encryption-types-explained/)
-
-- [x] Webpage: [Types of Encryption Algorithms + Pros and Cons for Each](https://www.keyfactor.com/education-center/types-of-encryption-algorithms/)
-
-  
-
-### Watch
-- [x] Youtube: [How secure is 256 bit security?](https://youtu.be/S9JGmA5_unY?si=tFWn0-ZCT6Mf7S0w) [length: 5:05]
+## A Simple, Interactive App
+#### How to Use:
+Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow the prompt. *For files: supply a path accessible to the notebook’s Python process*
+</details>
 
 ---
 
 
-#### M03 Assignment Guides:
+## Part Two: [Encoding and Decoding Using the Caesar Cipher](./)
 
-- [x] Youtube: [Python Beginner Project: Build a Caesar Cipher Encryption App](https://youtu.be/x71kJyNvB5o?si=-Ay_qNOlv5f-pO9n) [length 25:09]
+*Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text*
 
-- [x] Webpage: [How to use OpenSSL: Hashes, digital signatures, and more](https://opensource.com/article/19/6/cryptography-basics-openssl-part-2)
+<details>
+  <summary>Click to expand</summary>
 
----
+### How It Works
+*This Python script shifts each letter forward or backward through the alphabet using ASCII number conversions and modular arithmetic, while leaving punctuation and spaces untouched.*
 
-#### M03 Research
-Bull, I. September 7, 2016. *Tutorial: Code signing and verification with OpenSSL*. EclipseSource. https://eclipsesource.com/blogs/2016/09/07/tutorial-code-signing-and-verification-with-openssl/
+- **`ord()` and `chr()`**: Converts letters into their ASCII numbers so you can do math on them, then converts them back into characters.
 
-Javed, M. September 2, 2025. *Implementing the Caesar cipher in Python. Towards Data Science* https://towardsdatascience.com/implementing-the-caesar-cipher-in-python/
+- **Preserving Case**: Checks `char.isupper()` to set the starting anchor (`base`) at either `'A'` (65) or `'a'` (97).
 
-Kalin, M. June 20, 2019. *How to use OpenSSL: Hashes, digital signatures, and more*. Opensource.com. https://opensource.com/article/19/6/cryptography-basics-openssl-part-2
+- **Wrapping (`% 26`)**: The modulo operator ensures that shifting past `'Z'` wraps neatly back around to `'A'`and handles negative shifts automatically when decoding.
 
-Information Technology Laboratory. May 20, 2026. *Secure Sockets Layer (SSL)*. National Institute of Standards and Technology, Computer Security Resource Center. https://csrc.nist.gov/glossary/term/secure_sockets_layer
-
-Refsnes Data. (n.d.). *Node.js hash reference*. W3Schools. https://www.w3schools.com/nodejs/ref_sign.asp
+- **Non-Letters**: Anything that fails `char.isalpha()` (spaces, numbers, exclamation marks) passes straight through untouched.
+</details>
