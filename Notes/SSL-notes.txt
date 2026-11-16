@@ -1,0 +1,21 @@
+SSL 
+Transport Layer Security (TLS)
+Definitions:
+  A protocol used for protecting private information during transmission via the Internet. Note: SSL works by using the service public key to encrypt a secret key that is used to encrypt the data that is transferred over the SSL session. Most web browsers support SSL and many web sites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with "https:" instead of "http:". The default port for SSL is 443.
+(National Institute of Standards and Technology, n.d.)
+
+
+Secure Sockets Layer (SSL)
+Definitions:
+  A security protocol providing privacy and data integrity between two communicating applications. The protocol is composed of two layers: the TLS Record Protocol and the TLS Handshake Protocol (National Institute of Standards and Technology, n.d.).
+
+
+---
+
+References:
+
+National Institute of Standards and Technology. (n.d.). Transport Layer Security (TLS). Computer Security Resource Center. https://csrc.nist.gov/glossary/term/transport_layer_security
+
+
+Information Technology Laboratory. (2026, May 20). Secure Sockets Layer (SSL). National Institute of Standards and Technology, Computer Security Resource Center. https://csrc.nist.gov/glossary/term/secure_sockets_layer
+

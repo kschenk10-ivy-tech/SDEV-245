@@ -313,5 +313,8 @@
 	"markdown.experimental.richLinks.enabled": false,
 	"chat.experimentalModePermissionsPicker": false,
 	"chat.experimental.stickyScroll.enabled": false,
-	"debug.javascript.enableNetworkView": false
+	"debug.javascript.enableNetworkView": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.emptySelectionClipboard": false,
+	"workbench.editor.tabActionReserveSpace": false
 }

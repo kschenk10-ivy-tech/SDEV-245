@@ -8,11 +8,11 @@
 
 Instructions:
 
-- [ ] Write an app that generates SHA-256 hashes for input strings or files
+- [x] Write an app that generates SHA-256 hashes for input strings or files
 
 - [ ] Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text
 
-- [ ] Use OpenSSL or a tool to simulate a digital signature (sign/verify).
+- [x] Use OpenSSL or a tool to simulate a digital signature (sign/verify).
 
 - [ ] Include a short README explaining your code's functionality
 
@@ -60,5 +60,12 @@ Instructions:
 ---
 
 #### M03 Research
+Bull, I. September 7, 2016. *Tutorial: Code signing and verification with OpenSSL*. EclipseSource. https://eclipsesource.com/blogs/2016/09/07/tutorial-code-signing-and-verification-with-openssl/
 
-Javed, M. September 2, 2025. Implementing the Caesar cipher in Python: A beginner-friendly project introducing Python basics. Towards Data Science. https://towardsdatascience.com/implementing-the-caesar-cipher-in-python/
+Javed, M. September 2, 2025. *Implementing the Caesar cipher in Python. Towards Data Science* https://towardsdatascience.com/implementing-the-caesar-cipher-in-python/
+
+Kalin, M. June 20, 2019. *How to use OpenSSL: Hashes, digital signatures, and more*. Opensource.com. https://opensource.com/article/19/6/cryptography-basics-openssl-part-2
+
+Information Technology Laboratory. May 20, 2026. *Secure Sockets Layer (SSL)*. National Institute of Standards and Technology, Computer Security Resource Center. https://csrc.nist.gov/glossary/term/secure_sockets_layer
+
+Refsnes Data. (n.d.). *Node.js hash reference*. W3Schools. https://www.w3schools.com/nodejs/ref_sign.asp
