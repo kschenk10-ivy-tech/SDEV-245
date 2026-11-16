@@ -6,6 +6,18 @@
 
 [enter link description here](./)
 
+Instructions:
+
+- [ ] Write an app that generates SHA-256 hashes for input strings or files
+
+- [ ] Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text
+
+- [ ] Use OpenSSL or a tool to simulate a digital signature (sign/verify).
+
+- [ ] Include a short README explaining your code's functionality
+
+
+
 ## Module 3: Learning Materials
 
 *Required Content*

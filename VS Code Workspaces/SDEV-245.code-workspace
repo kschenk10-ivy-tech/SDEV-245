@@ -89,7 +89,7 @@
 		"python.analysis.enablePytestSupport": false,
 		"python.analysis.autoSearchPaths": false,
 		"python.analysis.autoIndent": false,
-		"workbench.editor.enablePreview": false,
+		"workbench.editor.enablePreview": true,
 		"editor.bracketPairColorization.enabled": false,
 		"editor.dropIntoEditor.enabled": false,
 		"editor.hover.enabled": "off",
@@ -167,7 +167,8 @@
 			"terminalEditor": false,
 			"workbench.editor.chatSession": false,
 			"mainThreadWebview-simpleBrowser.view": false,
-			"mainThreadWebview-browserPreview": false
+			"mainThreadWebview-browserPreview": false,
+			"workbench.editor.processExplorer": false
 		},
 		"interactiveWindow.alwaysScrollOnNewCell": false,
 		"workbench.colorTheme": "Aura Soft Dark",
@@ -182,7 +183,7 @@
 		"files.restoreUndoStack": false,
 		"editor.occurrencesHighlight": "off",
 		"workbench.editor.restoreViewState": false,
-		"workbench.editor.showIcons": false,
+		"workbench.editor.showIcons": true,
 		"markdown.editor.drop.enabled": "never",
 		"git.openDiffOnClick": false,
 		"git.showInlineOpenFileAction": false,
@@ -333,7 +334,13 @@
 		"editor.wordWrap": "on",
 		"chat.agent.maxRequests": 0,
 		"workbench.browser.dataStorage": "workspace",
-		"telemetry.editStats.enabled": false
+		"telemetry.editStats.enabled": false,
+		"dotnet.diagnostics.reportInformationAsHint": false,
+		"csharp.suppressHiddenDiagnostics": false,
+		"dotnet.enablePublishIssuesToProblems": false,
+		"workbench.editor.restoreEditors": false,
+		"workbench.editor.tabActionReserveSpace": false,
+		"workbench.editor.markdownDefaultEditorInAgentsWindow": false
 	},
 	"extensions": {
 		"recommendations": [
