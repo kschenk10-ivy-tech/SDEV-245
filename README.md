@@ -3,12 +3,7 @@
 
 ***Due by 10:59pm on: Monday, November 16th, 2026***
 
-![enter image description here](./)
-
-[enter link description here](./)
-
 ## Part One: [SHA-256 Hashing](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/03c956172ae56253dfed44356064afaabb0eec86/Jupyter%20Notebook/Hash.ipynb)
-*Write an app that generates SHA-256 hashes for input strings or files*
 
 <details>
   <summary>Click to expand</summary>
@@ -32,11 +27,12 @@ Files are already sequences of bytes. Reading in chunks means even large files c
 Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow the prompt. *For files: supply a path accessible to the notebook’s Python process*
 </details>
 
+[![Image of a  Jupyter Notebook, SHA-256 Hashing](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/02-hashCapture.PNG?raw=true
+)](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/03c956172ae56253dfed44356064afaabb0eec86/Jupyter%20Notebook/Hash.ipynb "Part One: SHA-256 Hashing")
+
 ---
 
 ## Part Two: [Encoding and Decoding Using the Caesar Cipher](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/03c956172ae56253dfed44356064afaabb0eec86/Jupyter%20Notebook/CaesarCipher.ipynb)
-
-*Write an app that uses a simple substitution cipher (Caesar cipher or similar) to encrypt/decrypt input text*
 
 <details>
   <summary>Click to expand</summary>
@@ -52,3 +48,6 @@ Run the last cell in the Notebook, enter 1 for text, or 2 for a file, and follow
 
 - **Non-Letters**: Anything that fails `char.isalpha()` (spaces, numbers, exclamation marks) passes straight through untouched.
 </details>
+
+![Image of a  Jupyter Notebook, encoding and decoding the Caesar Cipher](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/CCcapture.PNG?raw=true)(https://github.com/kschenk10-ivy-tech/SDEV-245/blob/0c94822f83d852688bfb6b6611d0fb6eaa672045/Jupyter%20Notebook/CaesarCipher.ipynb "Part Two: Encoding and Decoding Using the Caesar Cipher")
+
