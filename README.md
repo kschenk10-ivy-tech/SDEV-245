@@ -8,10 +8,9 @@
 <details>
   <summary>Click to expand</summary>
 
-> This Jupyter Notebook generates SHA-256 hashes for text or files
+> This Jupyter Notebook generates SHA-256 hashes for text or file
 
-### Hash a String
-How It Works
+## How It Works
 - `.encode("utf-8")` converts the string into bytes because SHA-256 hashes bytes, not Python strings.
 - `hashlib.sha256()` calculates the hash.
 - `.hexdigest()` produces an easy-to-read hexadecimal string.
