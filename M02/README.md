@@ -2,12 +2,7 @@
 ***Due: Mon Nov 9, 2026 10:59pm***
 
 ---
-
-![enter image description here](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/Adobe%20Express%20-%20ScreenRecording_11-08-2026%2002-30-07_1.gif?raw=true)
-
-
-[Link](./index.html)
-
+![enter image description here](https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/M02/Adobe%20Express%20-%20ScreenRecording_11-08-2026%2002-30-07_1.gif?raw=true)
 
 *AES-GCM and RSA-OAEP encryption using [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API).*
 
