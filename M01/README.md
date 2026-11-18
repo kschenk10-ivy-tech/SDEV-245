@@ -6,7 +6,7 @@
 
 # Module 1: Assignment - RBAC and Authentication Mini-App
 
-<img src="https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/Adobe%20Express%20-%20ScreenRecording_11-01-2026.gif?raw=true" width="300" alt="Screen Recording">
+<img src="https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/M01/Adobe%20Express%20-%20ScreenRecording_11-01-2026.gif?raw=true" width="300" alt="Screen Recording">
 
 ## How to use
 
