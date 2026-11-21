@@ -6,6 +6,9 @@ SDEV245 | M04
 [Link to Module 4 Midterm](https://kschenk10-ivy-tech.github.io/SDEV-245/)
 
 
+
+
+
 ## Module 4: Learning Materials
 
 *Required Content*
