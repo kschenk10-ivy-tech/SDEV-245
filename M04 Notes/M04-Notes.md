@@ -1,4 +1,7 @@
 ### Research & References:
+
+Chen, M. (2026, March 30). JavaScript SHA256: How to hash correctly and securely. Safeguard. https://safeguard.sh/resources/blog/javascript-sha256
+
 Gulay, E. December 3, 2024. *Secure text encryption and decryption with vanilla JavaScript*. DEV Community. https://dev.to/eddiegulay/secure-text-encryption-and-decryption-with-vanilla-javascript-1c23
 
 Linux Security "Linux Integrity Verification: SHA256 and GPG Checks Explained" Nov 21, 2025, by: MaK Ulac. https://linuxsecurity.com/news/server-security/checksums-in-linux-integrity-guide
