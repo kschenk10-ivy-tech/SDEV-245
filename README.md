@@ -24,8 +24,3 @@ SDEV245 | M04
 
 
 ---
-
-### Research & References:
-Open Worldwide Application Security Project. 2026. HTML5 Security Cheat Sheet. OWASP Cheat Sheet Series. https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html
-
-Linux Security "Linux Integrity Verification: SHA256 and GPG Checks Explained" Nov 21, 2025, by: MaK Ulac. https://linuxsecurity.com/news/server-security/checksums-in-linux-integrity-guide
