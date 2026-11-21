@@ -5,6 +5,9 @@ SDEV245 | M04
 Module 4: Assignment - Secure Code Analysis
 Due: Mon Nov 23, 2026 10:59pm
 
+Module 4 Midterm: Build a Secure Data Transmission App with Hashing and Encryption
+Due: Mon Nov 23, 2026 10:59pm
+
 
 
 *Required Content*
