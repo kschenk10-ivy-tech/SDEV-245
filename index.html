@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M04</title>
+</head>
+<body>
+  <h2>Encryption and Hash Verification</h2>
+  <p>Enter a message or upload a file:</p>
+  <textarea id="message" placeholder="Enter message"></textarea>
+  <p>OR</p>
+  <input type="file" id="fileInput">
+  <br><br>
+  <button id="encrypt">Encrypt</button>
+  <button id="decrypt">Decrypt</button>
+
+  <h3>Original SHA-256 Hash:</h3>
+  <p id="originalHash">...</p>
+
+  <h3>Encrypted Data:</h3>
+  <p id="cipher">...</p>
+
+  <h3>Decrypted Data:</h3>
+  <p id="plain">...</p>
+
+  <h3>Integrity Check:</h3>
+  <p id="result">...</p>
+
+  <a id="download" hidden>Download Decrypted File</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
