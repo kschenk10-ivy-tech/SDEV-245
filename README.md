@@ -14,6 +14,9 @@ SDEV 245 | M04
 <p align="center">
   <img src="https://github.com/kschenk10-ivy-tech/SDEV-245/blob/main/Adobe%20Express-ScreenRecording_11-23-2026.gif?raw=true" alt="Screenshot of M04 Midterm Project for SDEV-245" width="auto" height=450>
 </p>
+
+
+
 ---
 
 # Confidentiality, Integrity, and Availability
